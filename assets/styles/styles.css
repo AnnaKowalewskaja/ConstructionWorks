@@ -1,0 +1,370 @@
+header {
+  background-image: url(../images/mainBG.svg);
+  height: 84.7rem;
+  width: 100%;
+}
+
+.header {
+  padding-top: 4.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: flex;
+  flex-direction: column;
+}
+.header__logo :hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.header__logo img {
+  height: 6rem;
+}
+.header__logo h1 {
+  text-align: center;
+  line-height: 1.2rem;
+}
+.header__logo h1 a {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+.header__logo h1 a :hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  width: 59.6rem;
+  justify-content: space-between;
+}
+
+.nav__li {
+  list-style-type: none;
+}
+.nav__li a {
+  color: #F0F0F0;
+  font-weight: 500;
+  font-size: 2.4rem;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 7.2rem;
+}
+
+.blok__description {
+  color: #F0F0F0;
+  font-size: 2.4rem;
+  margin-bottom: 5.3rem;
+}
+
+.header__blok {
+  padding-top: 14.4rem;
+  padding-bottom: 25.1rem;
+}
+
+.blok__company {
+  margin-bottom: 1.3rem;
+  Line-height: 8.4rem;
+}
+
+.about__description {
+  margin-left: 12.7rem;
+}
+.about__description p {
+  color: #F0F0F0;
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+}
+.about__description :last-child {
+  margin-bottom: 6.8rem;
+}
+
+main {
+  background-color: #090B0D;
+  width: 100%;
+}
+
+.about {
+  padding-top: 13rem;
+  padding-bottom: 10.3rem;
+  display: flex;
+  width: 112.3rem;
+  margin: 0 auto;
+  justify-content: space-between;
+  height: 42.7rem;
+}
+.about img {
+  width: 44.7rem;
+  height: 100%;
+}
+
+.description__num {
+  display: flex;
+}
+
+.num__div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.num__p {
+  font-size: 6.4rem;
+}
+
+.benefits {
+  z-index: 20;
+  background-color: #0D1C1F;
+  width: 100%;
+  padding: 0 auto;
+  padding-bottom: 12rem;
+}
+.benefits .container {
+  width: 1332.8px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 3.5rem;
+}
+
+.benefits__description {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+}
+
+.benefits__blok {
+  display: flex;
+  flex-direction: column;
+  height: 20.1rem;
+  border-radius: 1rem;
+  color: #3D3737;
+  background-color: #E5E5E5;
+}
+
+.benefit__banner {
+  font-size: 3.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 3.5rem 2rem 2rem 2.5rem;
+}
+
+.benefit__rubric {
+  margin-left: 5rem;
+  padding-left: 2rem;
+  margin-top: 0;
+  max-width: 30rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  border-left: 2px #5E5E5E solid;
+}
+
+.work {
+  height: 66.2rem;
+  width: 100%;
+  background-color: #E5E5E5;
+  display: flex;
+}
+.work h2 {
+  color: #090B0D;
+  text-align: right;
+  font-weight: 300;
+}
+
+.work__img {
+  width: 40%;
+  max-width: 60.85rem;
+  height: 100%;
+}
+
+.work__text {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-right: 12.1rem;
+  grid-column-gap: auto;
+  grid-row-gap: 5rem;
+}
+.work__text h2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin-top: 10.5rem;
+}
+
+.work__blok {
+  display: grid;
+  grid-template-columns: 3.5rem 1fr;
+  grid-auto-rows: minmax(4.4rem, 4.7rem);
+  max-width: 43rem;
+  line-height: 2.2rem;
+}
+.work__blok img {
+  width: 3rem;
+}
+
+.work__banner {
+  font-size: 3.6rem;
+  color: #5E5E5E;
+}
+
+.work__rubric {
+  color: #3D3737;
+  font-size: 1.8rem;
+  font-weight: 300;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.examples {
+  width: 100%;
+  background-color: #0D1C1F;
+  padding-top: 11.2rem;
+  padding-bottom: 14.2rem;
+}
+.examples h2 {
+  font-size: 7.2rem;
+  font-weight: 500;
+  line-height: 85px;
+  color: #E5E5E5;
+  text-align: center;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.slider__hover:hover {
+  filter: brightness(150%);
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.slider__hover:not(:hover) {
+  transition: all 0.3s ease-in;
+}
+
+.stages {
+  width: 100%;
+  background: #090B0D url(../images/stages.png) scroll;
+}
+
+.stages__description {
+  font-weight: 300;
+  font-size: 2.6rem;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Raleway", sans-serif;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  color: #FFFFFF;
+}
+
+button {
+  border-radius: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  margin: 0;
+  list-style-type: none;
+}
+ul li a {
+  margin: 0;
+}
+
+li :hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  color: #f2a348;
+}
+li :active {
+  transition: all 0.3s ease-in;
+  color: #f2a348;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+a :hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+a:not(:hover) {
+  transition: all 0.3s ease-in;
+}
+
+p, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 6.4rem;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+.container {
+  width: 98%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+input {
+  border: 0;
+}
+
+.button {
+  background-color: #f2a348;
+  color: #FFFFFF;
+  border: 0;
+  border-radius: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  height: 8rem;
+  width: 35.2rem;
+  font-weight: 600;
+  font-size: 2.4rem;
+  z-index: 100;
+}
+.button:hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  background-color: rgba(240, 129, 2, 0.7568627451);
+}
+.button:not(:hover) {
+  transition: all 0.3s ease-in;
+}
+.button:active {
+  background-color: rgba(197, 168, 0, 0.662745098);
+}
+
+/*# sourceMappingURL=styles.css.map */

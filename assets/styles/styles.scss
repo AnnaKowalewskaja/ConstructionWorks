@@ -1,0 +1,123 @@
+@import 'variables';
+@import 'header';
+@import 'main';
+
+
+
+
+
+* {
+    scroll-behavior: smooth;
+
+
+}
+
+html {
+    font-size: 10px;
+    font-family: $main_font;
+
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    color:$main-light-color;
+}
+button {
+    border-radius: 0;
+}
+
+
+
+ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+        margin: 0;
+        list-style-type: none;
+
+        a {
+            margin: 0;
+        }
+    }
+
+}
+
+li {
+    :hover {
+        cursor: pointer;
+        transition: $main-animation;
+        color: $add-color;
+
+    }
+
+    :active {
+        transition: $main-animation;
+        color: $add-color;
+    }
+}
+
+a {
+    color: $main-light-color;
+    text-decoration: none;
+
+    :hover {
+        cursor: pointer;
+        transition: $main-animation;
+    }
+    &:not(:hover ){
+        transition: $main-animation;
+    }
+}
+
+p,h2{  margin: 0;
+    padding: 0;
+}
+h3{
+    font-size: 6.4rem;
+    color: $main-light-color;
+    font-weight: 500;
+}
+
+.container {
+    width: 98%;
+    max-width: $max-width;
+    margin: 0 auto;
+}
+
+
+
+input {
+    border: 0;
+}
+
+ .button {
+    background-color: $add-color;
+    color: $main-light-color;
+    border: 0;
+    border-radius: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    height: 8rem;
+    width: 35.2rem;
+    font-weight: 600;
+    font-size: 2.4rem;
+    z-index: 100;
+
+    &:hover{
+        cursor: pointer;
+        transition: $main-animation;
+        background-color: $add-color-light;
+    }
+    &:not(:hover ){
+        transition: $main-animation;
+    }
+
+    &:active{
+        background-color: $active-color;
+    }
+}

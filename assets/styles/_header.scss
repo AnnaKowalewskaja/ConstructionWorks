@@ -1,0 +1,93 @@
+header {
+    background-image: url(../images/mainBG.svg);
+    height: 84.7rem;
+    width: 100%;
+}
+
+.header {
+
+    padding-top: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.header__logo {
+    display: flex;
+    flex-direction: column;
+
+    :hover {
+        cursor: pointer;
+        transition: $main-animation;
+    }
+    
+
+    img {
+        height: 6rem;
+
+    }
+
+    h1 {
+        text-align: center;
+        line-height: 1.2rem;
+
+        a {
+            font-weight: 500;
+            text-transform: uppercase;
+
+            font-size: 1.3rem;
+
+
+            :hover {
+                cursor: pointer;
+                transition: $main-animation;
+            }
+           
+        }
+    }
+
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: row;
+    width: 59.6rem;
+    justify-content: space-between;
+}
+
+.nav__li {
+    a {
+        color: $add-light-color;
+        font-weight: 500;
+        font-size: 2.4rem;
+    }
+
+    list-style-type: none;
+}
+
+h2 {
+    color: $main-light-color;
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7.2rem;
+}
+
+
+.blok__description {
+    color: $add-light-color;
+    font-size: 2.4rem;
+    margin-bottom:5.3rem;
+}
+
+.header__blok{
+    padding-top: 14.4rem;
+    padding-bottom: 25.1rem;
+}
+
+.blok__company{
+    margin-bottom: 1.3rem;
+    Line-height:8.4rem;
+}
