@@ -89,7 +89,9 @@ h3{
     margin: 0 auto;
 }
 
-
+p{
+    font-family:$add_font;
+}
 
 input {
     border: 0;
@@ -107,7 +109,7 @@ input {
     font-weight: 600;
     font-size: 2.4rem;
     z-index: 100;
-
+    font-family: $add_font;
     &:hover{
         cursor: pointer;
         transition: $main-animation;
