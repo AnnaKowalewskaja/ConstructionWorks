@@ -336,15 +336,18 @@ main {
   background-color: #E5E5E5;
   padding-top: 11rem;
   padding-bottom: 8.3rem;
+  font-weight: 200;
 }
 .contacts .container {
   display: flex;
   justify-content: space-between;
+  max-width: 111.5rem;
 }
 
 .contacts__blok {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 .contacts__blok :not(:first-child) {
   text-align: center;
@@ -362,6 +365,7 @@ main {
 }
 
 .contacts__paragraf {
+  line-height: 2.9rem;
   color: #3D3737;
   font-size: 2.4rem;
 }
@@ -372,7 +376,7 @@ main {
   justify-content: space-between;
   background-color: #0D1C1F;
   width: 42.5rem;
-  height: 45.6rem;
+  height: 36.8rem;
   padding: 4.4rem 4.2rem;
 }
 .contacts__form label {
@@ -382,16 +386,29 @@ main {
 }
 .contacts__form input {
   border: none;
-  font-size: 2.4rem;
+  font-size: 1.8rem;
+  line-height: 2.19rem;
   height: 3.5rem;
+  font-weight: 400;
   font-family: "Montserrat", sans-serif;
   margin-top: -4rem;
   background-color: #E5E5E5;
+  padding-left: 1.1rem;
+}
+.contacts__form input ::placeholder {
+  opacity: 0.6;
+  letter-spacing: 4px;
 }
 .contacts__form .button {
   max-width: 26.1rem;
   height: 5.9rem;
   font-size: 1.8rem;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #090B0D;
+  height: 2.9rem;
 }
 
 * {
