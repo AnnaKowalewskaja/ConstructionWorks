@@ -59,6 +59,11 @@ h2 {
   font-weight: 500;
   font-size: 7.2rem;
 }
+@media (max-width: 1444px) {
+  h2 {
+    font-size: 6rem;
+  }
+}
 
 .blok__description {
   color: #F0F0F0;
@@ -81,7 +86,7 @@ h2 {
 }
 .about__description p {
   color: #F0F0F0;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 300;
   margin-bottom: 2.5rem;
 }
@@ -135,11 +140,25 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 3.5rem;
 }
+@media (max-width: 1024px) {
+  .benefits .container {
+    width: 1003.52px;
+  }
+}
 
 .benefits__description {
   grid-column-start: 1;
   grid-column-end: 4;
   text-align: center;
+}
+@media (max-width: 1024px) {
+  .benefits__description {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
 }
 
 .benefits__blok {
@@ -150,6 +169,12 @@ main {
   color: #3D3737;
   background-color: #E5E5E5;
 }
+@media (max-width: 1024px) {
+  .benefits__blok {
+    margin: 0 auto;
+    min-height: 20.3rem;
+  }
+}
 
 .benefit__banner {
   font-size: 3.6rem;
@@ -157,6 +182,11 @@ main {
   text-transform: uppercase;
   margin: 3.5rem 2rem 2rem 2.5rem;
   font-family: "Raleway", sans-serif;
+}
+@media (max-width: 1024px) {
+  .benefit__banner {
+    font-size: 2.6rem;
+  }
 }
 
 .benefit__rubric {
@@ -217,6 +247,16 @@ main {
   color: #5E5E5E;
   font-family: "Raleway", sans-serif;
 }
+@media (max-width: 1444px) {
+  .work__banner {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 1024px) {
+  .work__banner {
+    font-size: 2.4rem;
+  }
+}
 
 .work__rubric {
   color: #3D3737;
@@ -250,6 +290,11 @@ main {
   justify-content: space-around;
   width: 90%;
 }
+@media (max-width: 1444px) {
+  .slider {
+    width: 100%;
+  }
+}
 
 .slider__hover:hover {
   filter: brightness(200%);
@@ -270,6 +315,16 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  color: #E5E5E5;
+  font-size: 2.4rem;
+  font-weight: 200;
+  margin-left: -22px;
+  margin-top: 53px;
+}
+@media (max-width: 1024px) {
+  .stages__text {
+    margin-top: 40px;
+  }
 }
 .stages__text :last-child {
   text-align: right;
@@ -322,14 +377,6 @@ main {
 }
 .stages__bloks img {
   height: 10rem;
-}
-
-.stages__text {
-  color: #E5E5E5;
-  font-size: 2.4rem;
-  font-weight: 200;
-  margin-left: -22px;
-  margin-top: 53px;
 }
 
 .contacts {
@@ -418,6 +465,11 @@ main {
 html {
   font-size: 10px;
   font-family: "Raleway", sans-serif;
+}
+@media (max-width: 1024px) {
+  html {
+    font-size: 8px;
+  }
 }
 
 div {

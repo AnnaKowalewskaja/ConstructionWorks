@@ -3,7 +3,7 @@
 
     p {
         color: $add-light-color;
-        font-size: 1.8rem;
+        font-size: 2rem;
         font-weight: 300;
         margin-bottom: 2.5rem;
     }
@@ -42,6 +42,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 50%;
+   
 }
 
 .num__p {
@@ -63,6 +64,11 @@ main {
         grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 3.5rem;
 
+        @media (max-width:1024px) {
+            
+            
+            width: calc(98 * 1024px / 100);
+        }
     }
 }
 
@@ -70,6 +76,14 @@ main {
     grid-column-start: 1;
     grid-column-end: 4;
     text-align: center;
+
+    @media (max-width:1024px) {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
 }
 
 .benefits__blok {
@@ -80,6 +94,12 @@ main {
     color: $main-dark-color;
     background-color: $main-gray-color;
 
+    @media (max-width:1024px) {
+        margin: 0 auto;
+            min-height:20.3rem ;
+            
+        
+    }
 
 
 
@@ -91,6 +111,9 @@ main {
     text-transform: uppercase;
     margin: 3.5rem 2rem 2rem 2.5rem;
     font-family: $main_font;
+    @media (max-width: 1024px) {
+        font-size: 2.6rem;
+    }
 }
 
 .benefit__rubric {
@@ -136,7 +159,9 @@ main {
         grid-column-start: 1;
         grid-column-end: 3;
         margin-top: 10.5rem;
+
     }
+
 }
 
 .work__blok {
@@ -156,6 +181,13 @@ main {
     line-height: 3.7rem;
     color: $border-color;
     font-family: $main_font;
+
+    @media (max-width: 1444px) {
+        font-size: 3rem;
+    }
+    @media  (max-width: 1024px) {
+        font-size: 2.4rem;
+    }
 }
 
 .work__rubric {
@@ -192,6 +224,9 @@ main {
     justify-content: space-around;
     width: 90%;
 
+    @media (max-width:1444px) {
+        width: 100%;
+    }
 
 }
 
@@ -217,9 +252,16 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: $main-gray-color;
+    font-size: 2.4rem;
+    font-weight: 200;
+    margin-left: -22px;
+    margin-top: 53px;
 
+    @media (max-width:1024px) {
+        margin-top: 40px;
+    }
     :last-child {
-
         text-align: right;
         width: 70%;
     }
@@ -283,20 +325,14 @@ main {
 
 }
 
-.stages__text {
-    color: $main-gray-color;
-    font-size: 2.4rem;
-    font-weight: 200;
-    margin-left: -22px;
-    margin-top: 53px;
-}
+
 
 .contacts {
     background-color: $main-gray-color;
     padding-top: 11rem;
     padding-bottom: 8.3rem;
     font-weight: 200;
-   
+
 
     .container {
         display: flex;
@@ -330,7 +366,7 @@ main {
 }
 
 .contacts__paragraf {
-line-height:2.9rem;
+    line-height: 2.9rem;
     color: $main-dark-color;
     font-size: 2.4rem;
 }
@@ -376,7 +412,7 @@ line-height:2.9rem;
     }
 }
 
-.footer{
+.footer {
     background-color: $bg-color;
     height: 2.9rem;
 }

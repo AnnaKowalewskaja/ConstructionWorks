@@ -2,7 +2,10 @@ header {
     background-image: url(../images/mainBG.svg);
     height: 84.7rem;
     width: 100%;
+  
 }
+
+
 
 .header {
 
@@ -10,6 +13,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  
 }
 
 
@@ -73,6 +77,9 @@ h2 {
     font-style: normal;
     font-weight: 500;
     font-size: 7.2rem;
+    @media (max-width: 1444px) {
+        font-size:6rem ;
+    }
 }
 
 

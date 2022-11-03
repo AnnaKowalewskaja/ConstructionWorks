@@ -15,7 +15,9 @@
 html {
     font-size: 10px;
     font-family: $main_font;
-
+    @media (max-width:1024px) {
+        font-size: 8px;
+    }
 }
 
 div {
