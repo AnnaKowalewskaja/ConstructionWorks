@@ -57,7 +57,7 @@ main {
 
     padding: 0 auto;
     padding-bottom: 12rem;
-
+   
     .container {
         width: calc(98 * $max-width / 100);
         display: grid;
@@ -65,9 +65,9 @@ main {
         grid-column-gap: 3.5rem;
 
         @media (max-width:1024px) {
-            
-            
+
             width: calc(98 * 1024px / 100);
+            max-width: 900px;
         }
     }
 }

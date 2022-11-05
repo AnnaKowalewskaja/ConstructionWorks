@@ -11,6 +11,13 @@ header {
   justify-content: space-between;
 }
 
+@media (max-width: 1024px) {
+  .header__menu {
+    display: flex;
+    align-items: center;
+  }
+}
+
 .header__logo {
   display: flex;
   flex-direction: column;
@@ -143,6 +150,7 @@ main {
 @media (max-width: 1024px) {
   .benefits .container {
     width: 1003.52px;
+    max-width: 900px;
   }
 }
 

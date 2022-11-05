@@ -16,7 +16,12 @@ header {
   
 }
 
-
+.header__menu{
+    @media (max-width:1024px) {
+        display: flex;
+        align-items: center;
+    }
+}
 
 .header__logo {
     display: flex;
