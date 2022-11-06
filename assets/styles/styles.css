@@ -26,19 +26,19 @@ header {
   cursor: pointer;
   transition: all 0.3s ease-in;
 }
-.header__logo img {
+.header__logo .logo__img {
   height: 6rem;
 }
-.header__logo h1 {
+.header__logo .logo__header {
   text-align: center;
   line-height: 1.2rem;
 }
-.header__logo h1 a {
+.header__logo .logo__header .logo__header_link {
   font-weight: 500;
   text-transform: uppercase;
   font-size: 1.3rem;
 }
-.header__logo h1 a :hover {
+.header__logo .logo__header .logo__header_link :hover {
   cursor: pointer;
   transition: all 0.3s ease-in;
 }
@@ -53,13 +53,13 @@ header {
 .nav__li {
   list-style-type: none;
 }
-.nav__li a {
+.nav__li .li__link {
   color: #F0F0F0;
   font-weight: 500;
   font-size: 2.4rem;
 }
 
-h2 {
+.common_h2 {
   color: #FFFFFF;
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -67,7 +67,7 @@ h2 {
   font-size: 7.2rem;
 }
 @media (max-width: 1444px) {
-  h2 {
+  .common_h2 {
     font-size: 6rem;
   }
 }
