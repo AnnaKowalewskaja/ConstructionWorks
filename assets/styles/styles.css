@@ -91,7 +91,7 @@ header {
 .about__description {
   margin-left: 12.7rem;
 }
-.about__description p {
+.about__description .description__p {
   color: #F0F0F0;
   font-size: 2rem;
   font-weight: 300;
@@ -101,7 +101,7 @@ header {
   margin-bottom: 6.8rem;
 }
 
-main {
+.main {
   background-color: #090B0D;
   width: 100%;
 }
@@ -115,7 +115,7 @@ main {
   justify-content: space-between;
   height: 42.7rem;
 }
-.about img {
+.about .about__img {
   width: 44.7rem;
   height: 100%;
 }
@@ -213,7 +213,7 @@ main {
   background-color: #E5E5E5;
   display: flex;
 }
-.work h2 {
+.work .common_h2 {
   color: #090B0D;
   text-align: right;
   font-weight: 300;
@@ -232,7 +232,7 @@ main {
   grid-column-gap: auto;
   grid-row-gap: 5rem;
 }
-.work__text h2 {
+.work__text .common_h2 {
   grid-column-start: 1;
   grid-column-end: 3;
   margin-top: 10.5rem;
@@ -245,7 +245,7 @@ main {
   max-width: 43rem;
   line-height: 2.2rem;
 }
-.work__blok img {
+.work__blok .work__img {
   width: 3rem;
 }
 
@@ -280,7 +280,7 @@ main {
   padding-top: 11.2rem;
   padding-bottom: 14.2rem;
 }
-.examples h2 {
+.examples .common_h2 {
   font-size: 7.2rem;
   font-weight: 500;
   line-height: 85px;
@@ -350,7 +350,7 @@ main {
   font-weight: 600;
 }
 
-.stages button {
+.stages .button {
   margin-top: 11.2rem;
 }
 .stages .container {
@@ -372,7 +372,7 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 6rem;
 }
-.stages2 h2 {
+.stages2 .common_h2 {
   color: #E5E5E5;
   text-align: left;
   grid-column-start: 1;
